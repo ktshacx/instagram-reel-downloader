@@ -118,7 +118,7 @@ export default function InstagramForm() {
           placeholder="Paste the Instagram URL here..."
           aria-label="Instagram video download URL input"
           title="Instagram video download URL input"
-          className="py-30 px- h-[50px] w-full rounded border-gray-700 bg-[#09090b]"
+          className="py-30 px- h-[50px] w-full rounded border-gray-700 bg-[#eee]"
         />
         <DownloadButton
           type="submit"
