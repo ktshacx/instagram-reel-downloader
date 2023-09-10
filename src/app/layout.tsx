@@ -24,7 +24,6 @@ export default function RootLayout({
           mainFont.className
         )}
       >
-        <AnimatedBackground />
         {children}
       </body>
     </html>
