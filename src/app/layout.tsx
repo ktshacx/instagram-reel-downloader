@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "overflow-x-hidden bg-zinc-950 text-slate-100",
+          "overflow-x-hidden bg-slate-100 text-slate-950",
           mainFont.className
         )}
       >
