@@ -14,7 +14,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
     <>
       <button
         {...props}
-        className="flex h-[50px] w-full items-center justify-center gap-2 rounded border border-gray-700 bg-[#1b1b1e] p-3 text-sm tracking-wide outline-none hover:bg-opacity-80 focus:outline-blue-600 md:w-[250px]"
+        className="flex h-[50px] w-full items-center justify-center gap-2 rounded border border-gray-700 bg-[#3456ff] text-gray-50 p-3 text-sm tracking-wide outline-none hover:bg-opacity-80 focus:outline-blue-600 md:w-[250px]"
         disabled={isLoading}
       >
         {isLoading ? (
